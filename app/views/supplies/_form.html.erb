@@ -1,0 +1,48 @@
+ <%= form_for(@supply) do |f| %>
+  <% if @supply.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@supply.errors.count, "error") %> prohibited this supply from being saved:</h2>
+
+      <ul>
+      <% @supply.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :customer_id %><br>
+    <%= f.number_field :customer_id %>
+ <br>
+    <%= f.label :bill_id %><br>
+    <%= f.number_field :bill_id %>
+<br>
+    <%= f.label :part_id %><br>
+    <%= f.number_field :part_id %>
+ <br>
+    <%= f.label :supplier_id %><br>
+    <%= f.number_field :supplier_id %>
+ <br>
+    <%= f.label :pro_id %><br>
+    <%= f.number_field :pro_id %>
+ <br>
+    <%= f.label :supplier_id %><br>
+    <%= f.text_field :supplier_id %>
+ <br>
+    <%= f.label :customer_id %><br>
+    <%= f.text_field :customer_id %>
+ <br>
+  
+    <%= f.label :project_id %><br>
+    <%= f.text_field :project_id %>
+ <br>
+    <%= f.label :part_id %><br>
+    <%= f.text_field :part_id %>
+ <br>
+    <%= f.label :bill_id %><br>
+    <%= f.text_field :bill_id %>
+  <div class="actions">
+   <center> <%= f.submit %></center>
+  </div>
+<% end %>

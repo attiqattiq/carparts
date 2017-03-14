@@ -1,0 +1,107 @@
+ 
+
+  
+<head>
+<title>Car | <%= @title %></title>
+
+
+
+
+
+
+
+</head>
+
+<body>
+<div class="cnn">
+
+ <div id="main">
+    
+
+ 
+      <div class="jumbotron">
+      <center><h1>Welcome to the Auto Mobile</h1></center>
+
+
+      <div class="img">
+
+        <%= image_tag "5.jpg", :width =>450 , :height =>168 %>
+        <%= image_tag "6.jpg", :width =>450 , :height =>168 %>
+
+
+      </div>
+      
+
+       <button class="button button4"style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; MORE--HERE</span>
+
+       <!-- Use any element to open the sidenav -->
+                            <span onclick="openNav()"></span></button>
+
+
+                            <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<br><br><br><br><br><br><br>
+                    <div class="card" style="width:100%">
+                      <div class="container" >
+                        <br>
+
+                        <h4><b><i>Nuts and Bolts</i> </b></h4> 
+                        <p> 
+                          AUTOMOBILES one of the leading car parts online shops due to a long-term experience and thousands of satisfied customers. Make yourself sure with our service as well as excellent price offers.
+                          <p>High quality brand Auto parts A large variety of manufacturers and high quality auto parts guarantee mobility of your vehicle and safety on roads.</p>Count on branded car spare and as a reliable auto parts supplier.
+                        </p> 
+                      </div>
+                    </div> 
+                  
+
+
+
+                              <div id="mySidenav" class="sidenav">  
+
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <a href="#">About</a>
+                                <a href="#">Services</a>
+                                <a href="#">Clients</a>
+                                <a href="#">Blog</a>
+                                <%= image_tag "Spare-parts.jpg",:height =>138 %> 
+                              </div>
+
+
+                           
+
+
+                 
+                  
+                  
+            
+
+                                              <script>
+                                              function openNav() {
+                                                  document.getElementById("mySidenav").style.width = "250px";
+                                                  document.getElementById("main").style.marginLeft = "250px";
+                                              }
+
+                                              function closeNav() {
+                                                  document.getElementById("mySidenav").style.width = "0";
+                                                  document.getElementById("main").style.marginLeft= "0";
+                                              }
+                                              </script>
+        
+<br>
+
+<br>
+<%= link_to "Log in now!", new_user_session_path, :class => "signup_button round" %> 
+<br>
+<%= link_to "Register", new_user_registration_path, :class => "signup_button round" %>
+     </div>
+     </div>
+
+
+ </div>
+
+ </body>
+
+
+<%= link_to image_tag("rails.png",alt: "Rails logo"),'http://rubyonrails.org/' %>  
+
+
+

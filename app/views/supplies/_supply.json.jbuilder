@@ -1,0 +1,2 @@
+json.extract! supply, :id, :customer_id, :bill_id, :part_id, :supplier_id, :pro_id, :supplier_id, :customer_id, :project_id, :part_id, :bill_id, :created_at, :updated_at
+json.url supply_url(supply, format: :json)

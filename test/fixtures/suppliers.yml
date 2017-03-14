@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  supplier_id: 1
+  supplier_name: MyString
+  supply_date: 2016-12-16
+
+two:
+  supplier_id: 1
+  supplier_name: MyString
+  supply_date: 2016-12-16

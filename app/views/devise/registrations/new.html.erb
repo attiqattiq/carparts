@@ -1,0 +1,53 @@
+
+
+
+<div class="bbc">
+
+<center><i><h2>Sign up</h2></i><i><h4>Pleas sign up and get instance Acess</h4></i></center>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
+ 
+
+
+
+  <div class="field">
+   <center> <%= image_tag  "3.png",   :height =>80 %> <%= image_tag  "4.png",   :height =>80 %> </center> 
+   
+    <br>
+    <%= f.label :email %><br>
+    <%= f.email_field :email, autofocus: true %>
+  
+<br><br>
+  
+    <%= f.label :password %>
+    <% if @minimum_password_length %>
+    <em>(<%= @minimum_password_length %> characters minimum)</em>
+    <% end %><br />
+    <%= f.password_field :password, autocomplete: "off" %>
+  
+
+  <br><br>
+    <%= f.label :password_confirmation %><br />
+    <%= f.password_field :password_confirmation, autocomplete: "off" %>
+  
+<br>
+  <div class="actions">
+    <br>
+    <%= f.submit "Sign up" %>
+    <br><br>
+    <%= render "devise/shared/links" %>
+    <br><br>
+  
+  </div>
+</div>
+<% end %>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Customer:</strong>
+  <%= @supply.customer_id %>
+</p>
+
+<p>
+  <strong>Bill:</strong>
+  <%= @supply.bill_id %>
+</p>
+
+<p>
+  <strong>Part:</strong>
+  <%= @supply.part_id %>
+</p>
+
+<p>
+  <strong>Supplier:</strong>
+  <%= @supply.supplier_id %>
+</p>
+
+<p>
+  <strong>Pro:</strong>
+  <%= @supply.pro_id %>
+</p>
+
+<p>
+  <strong>Supplier:</strong>
+  <%= @supply.supplier %>
+</p>
+
+<p>
+  <strong>Customer:</strong>
+  <%= @supply.customer %>
+</p>
+
+<p>
+  <strong>Project:</strong>
+  <%= @supply.project %>
+</p>
+
+<p>
+  <strong>Part:</strong>
+  <%= @supply.part %>
+</p>
+
+<p>
+  <strong>Bill:</strong>
+  <%= @supply.bill %>
+</p>
+
+<%= link_to 'Edit', edit_supply_path(@supply) %> |
+<%= link_to 'Back', supplies_path %>

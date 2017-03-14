@@ -1,0 +1,68 @@
+ 
+<header>
+	
+<nav class="round">
+
+<div>
+
+
+	<ul>
+		
+<center >
+	<%= image_tag("logo.png", :alt => "Atuo Mobiles", :class => "round") %>
+	
+
+				<li>
+				      <%- if current_user %>
+
+
+				 <li> <h4><%= link_to "Logout", destroy_user_session_path, method: :delete %></h4></li>
+
+                        <li><h4><%= link_to "Supplier", new_supplier_path %></h4></li>
+						<li><h4><%= link_to "Supply", new_supply_path %></h4></li>
+						<li><h4><%= link_to "Part", new_part_path %></h4></li>
+						<li><h4><%= link_to "Project", new_project_path %></h4></li>
+						<li><h4><%= link_to "Status", new_status_path %></h4></li>
+						<li><h4><%= link_to "Customer", new_customer_path %></h4></li>
+						<li><h4><%= link_to "Bill", new_bill_path %></h4></li>
+
+
+						
+
+
+
+				 </li>
+
+
+
+				      <% else %>
+
+				 <li>
+
+				
+					     
+					    
+					    <li><h2><%= link_to "Brands","# "%></h2></li>
+					    <li><h2><%= link_to "Part type","# "%></h2></li>
+					    <li><h2><%= link_to "Payments","# "%></h2></li>
+					    <li><h2><%= link_to "Shipping","# "%></h2></li>
+                 
+				 
+				<li> <form>
+				       <input type="text" name="search" placeholder="Search.."> <input type="submit" value="search">
+				</li></form>
+
+			</li>
+		
+
+</center>
+
+<% end %>
+
+</ul>
+</div> 
+</nav> 
+
+</header> 
+
+

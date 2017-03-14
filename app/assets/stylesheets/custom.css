@@ -1,0 +1,237 @@
+
+
+
+
+
+
+.img{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+   
+.card{
+    
+    
+
+     background-color: #bbeddf;
+     overflow: scroll;
+
+}
+
+
+.active {
+
+    background-color: #660033; 
+    font-size: 15px  ;
+}
+ 
+header {
+    width: 100%;
+margin-right: 0px ;
+margin-left: 0px ; margin-top: 0px ; 
+padding-top: 0px; 
+padding-right: 40px  ;
+padding-left: 15px;
+font-size: 75px ;
+
+}
+header img {
+padding: 15px;
+padding-left: 15px;
+
+background: #eee;
+margin-top: 0px  ;
+margin-bottom: 0px  ;
+
+float: auto;
+}
+section {
+margin-top: 1em;
+font-size: 130%;
+padding: 5px 10px 10px 5px;
+background: #fff;
+}
+section h1 {
+font-size: 200%;
+}
+/* Links */
+a {
+
+color: #09c;
+text-decoration: none;
+}
+a:hover {
+color: #069;
+text-decoration: underline;
+}
+a:visited {
+color: #069;
+}
+
+
+/* Navigation */
+
+nav {
+
+float: auto;
+margin: 0px;
+background-color: black;
+padding: 0px;
+white-space: nowrap;
+}
+nav ul {
+
+margin: auto;
+
+overflow: hidden;
+}
+nav ul li {
+
+list-style-type: none;
+display: inline-block;
+padding: 0.0em 0;
+
+}
+nav ul li a {
+
+padding:  5px;
+font-weight: bold;
+}
+nav ul li a:visited {
+color: #09c;
+}
+nav ul li a:hover {
+text-decoration: underline;
+}
+
+
+.container {
+
+width: 1400px;
+padding-top: 0px;
+margin-top: 0px ;
+
+background-color: #09600;
+
+}
+body {
+background: #cbb;
+
+padding-right: 60px;
+padding-left: 60px;
+padding-top: 0px;
+
+
+}
+
+
+/* Sign up button */
+a.signup_button {
+margin-left: auto;
+margin-right: auto;
+display: block;
+text-align: center;
+width: 190px;
+color: #fff;
+background: #006400;
+font-size: 150%;
+font-weight: bold;
+padding: 10px;
+}
+
+
+/* Round corners */
+.round {
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+
+
+footer {
+text-align: center;
+margin-top: 0px;
+width: auto;
+margin-left: 0px;
+margin-right: 0px;
+}
+footer nav {
+	
+float: auto;
+}
+
+
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('search.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+
+.field {
+        position: relative;
+        width: 400px;
+        height: 380px;
+        background-color: rgba(0,0,0,0.2);
+        margin: auto;
+        margin-top: 60px;
+        padding-top: 50px;
+        padding-left: 50px;
+        -webkit-border-radius:15px;
+        
+        font-weight: bolder;
+        box-shadow: inset 4px 4px rgba(0,0,0,0.6);
+       
+          
+    
+     
+   
+ 
+    }  
+
+    .field img{
+        border-radius: 5px;
+
+    } 
+
+ input[type="submit"]
+    {
+        width: auto;
+        height: 30px;
+        border: 0;
+        border-radius: 5px;
+        -webkit-border-radius:5px;
+        background-color: skyblue;
+    }   
+
+    
+
+
+.bbc{
+
+
+    overflow: scroll;
+
+    background-image: url('Spare-parts.jpg')  ;
+}
+
+
+
+
+
+
